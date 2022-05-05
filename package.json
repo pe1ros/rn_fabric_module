@@ -1,0 +1,31 @@
+{
+  "name": "rnfabricmodule",
+  "version": "0.0.1",
+  "description": "Showcase Fabric component with backward compatibility",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+      "src",
+      "android",
+      "ios",
+      "rn-fabric-module.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/pe1ros/rn_fabric_module",
+  "author": "Ilya Petrosyan <im.clean@yandex.ru> (https://github.com/pe1ros)",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/pe1ros/rn_fabric_module/issues"
+  },
+  "homepage": "https://github.com/pe1ros/rn_fabric_module#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+  }
+}
